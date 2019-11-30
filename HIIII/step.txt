@@ -1,0 +1,13 @@
+部屬到Heroku
+    1. 建立一個app
+    2. install Heroku CLT (命令列工具) - heroku
+    3. install Git 命令工具 - git
+    4. 在 command 登入 heroku - heroku login
+
+    5. 初始化新的 Git Repository - git init
+        5.1 then heroku git:remote -a project name.
+    6. check the situation of Git Repository - git status
+    7. 更新一個版本
+        7.1 把更動的檔案加入追蹤管理:git add .
+        7.2 建立一個版本(commit):git commit -m"版本記錄訊息"
+        7.3 將最新的版本送到遠端(Heroku):git push heroku master
